@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.App {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.pageLogin {
+  background: #121214;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pageLogin header {
+  padding-top: 77.33px;
+  padding-bottom: 35.7px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 42px 22px;
+  background: #212529;
+  box-shadow: 0px 4px 40px -10px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 369px;
+  height: 502px;
+}
+
+.login p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #f8f9fa;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.login form label {
+  margin-top: 26.67px;
+  margin-bottom: 22.33px;
+}
+
+.login form button {
+  margin-left: 3px;
+  margin-top: 34.71px;
+  margin-bottom: 44.5px;
+  width: 324px;
+  height: 48px;
+  background: #ff577f;
+  border: 1.2182px solid #ff577f;
+  box-sizing: border-box;
+  border-radius: 4.06066px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+button {
+  cursor: pointer;
+}
+
+label {
+  color: #f8f9fa;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.182px;
+}
+
+input {
+  height: 48px;
+  width: 329.92877197265625px;
+  left: 0px;
+  top: 28.78857421875px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 16.2426px;
+  background: #343b41;
+  border: 1.2182px solid #343b41;
+  box-sizing: border-box;
+}
+
+input:defined {
+  color: #f8f9fa;
+}
+
+.login section p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #868e96;
+}
+
+.login section button {
+  width: 324px;
+  height: 48px;
+  background: #868e96;
+  border: 1.2182px solid #868e96;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #f8f9fa;
+}
+
+.pageLogin {
+  background: #121214;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pageRegister {
+  background: #121214;
+  width: 100vw;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 42px 22px;
+  width: 370px;
+  height: 711px;
+  background: #212529;
+  box-shadow: 0px 4px 40px -10px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.register > form > label {
+  margin: 26.67px 0px 22.33px 0px;
+}
+
+.register form button {
+  width: 326px;
+  height: 48px;
+  background: #59323f;
+  border: 1.2182px solid #59323f;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0px 22.3336px;
+}
+
+.register form select {
+  height: 48px;
+  width: 329.92877197265625px;
+  padding: 0px 16.2426px;
+  background: #343b41;
+  border: 1.2182px solid #343b41;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 5.3336px 0px 22.3336px 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.2426px;
+  color: #868e96;
+}
+
+.register > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #f8f9fa;
+}
+
+.register > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #868e96;
+}
+
+form > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: red;
+}
+
+.pageRegister > section {
+  padding: 56px 0px 38.75px 0px;
+  width: 370px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageRegister > section > button {
+  width: 67.49px;
+  height: 32px;
+  background: #212529;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #f8f9fa;
+}
+
+.pageHome > nav {
+  width: 100vw;
+  height: 72px;
+  background: #121214;
+  border-bottom: 1px solid #212529;
+}
+
+.pageHome > nav > img {
+  margin-top: 10px;
+  margin-right: 609.29px;
+}
+
+.pageHome > nav > button {
+  width: 55.49px;
+  height: 32px;
+  background: #212529;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #f8f9fa;
+}
+
+.dashboard > header {
+  width: 100vw;
+  height: 118px;
+  background: #121214;
+  display: flex;
+  border-bottom: 1px solid #212529;
+  margin-bottom: 0%;
+}
+
+.dashboard > header > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #f8f9fa;
+  margin-left: 350px;
+  margin-right: 500px;
+  line-height: 80px;
+}
+
+.dashboard > header > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #868e96;
+  line-height: 130px;
+}
+
+.dashboard > main {
+  height: 90vh;
+  background: #121214;
+  margin-top: 0%;
+  padding-top: 29px;
+}
+
+.dashboard > main > div {
+  display: flex;
+}
+
+.dashboard > main > div > p {
+  margin: 0px;
+  margin-left: 360px;
+  margin-right: 670px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #f8f9fa;
+}
+
+.dashboard > main > div > button {
+  height: 32px;
+  width: 32.485294342041016px;
+  background: #212529;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.containerCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px 19px;
+  width: 779.73px;
+  min-height: 416.37px;
+  background: #212529;
+  border-radius: 4px;
+  margin-left: 350px;
+  margin-top: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12.182px;
+  width: 742px;
+  height: 48.73px;
+  background: #121214;
+  border-radius: 4.06066px;
+  margin-bottom: 16px;
+}
+
+.card > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.2123px;
+  color: #f8f9fa;
+}
+
+.card > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.182px;
+  color: #868e96;
+}
+
+.card:hover {
+  cursor: pointer;
+  background: #343b41;
+}
